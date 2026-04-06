@@ -1,0 +1,33 @@
+# --- C++ Build Artifacts ---
+# Compiled Object files
+*.slo
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# --- VS Code Specific ---
+.vscode/
+# Note: You may want to track .vscode/launch.json or tasks.json if sharing with a team.
+# To do so, use: !.vscode/launch.json
+
+# --- General Build Directories ---
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+build/
