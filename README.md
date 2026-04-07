@@ -25,7 +25,7 @@ It serves as a playground for learning graphics programming, algorithms, and rea
 ## ▶️ How to Run
 
 ```bash
-make
+make build
 ./build/main.exe
 ```
 
