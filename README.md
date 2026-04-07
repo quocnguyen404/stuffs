@@ -1,0 +1,26 @@
+# Raylib Experiments & Visualizations
+
+This repository is a collection of small projects, experiments, and visualizations built using **raylib**.
+It serves as a playground for learning graphics programming, algorithms, and real-time rendering.
+
+
+## Current Projects
+
+### BFS Pathfinding Visualization
+Visual representation of **Breadth-First Search (BFS)**
+
+### Sorting Visualization (Selection Sort)
+Visualizes **Selection Sort** in real-time
+
+## Future Plans
+idk maybe i will find a job and doing something cooler
+
+## How to Run
+
+```bash
+make build
+./build/main.exe
+```
+
+## License
+MIT License (or update later)
