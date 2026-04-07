@@ -40,7 +40,7 @@ static int start_index;
 static int end_index;
 
 static bool found;
-static std::queue<int> frontier;
+static std::queue<int> bfs_frontier;
 
 static bool debug;
 

@@ -94,22 +94,22 @@ void StartBFS() {
     grid[start_index].state = POINT;
     grid[end_index].state = POINT;
 
-    //Clear frontier
-    while(!frontier.empty()) {
-        frontier.pop();
+    //Clear bfs_frontier
+    while(!bfs_frontier.empty()) {
+        bfs_frontier.pop();
     }
 
-    frontier.push(start_index);
+    bfs_frontier.push(start_index);
     grid[start_index].state = FRONTIER;
 }
 
 void UpdateBFS() {
-    if(found || frontier.empty()) {
+    if(found || bfs_frontier.empty()) {
         return;
     }
 
-    int cur = frontier.front();
-    frontier.pop();
+    int cur = bfs_frontier.front();
+    bfs_frontier.pop();
     grid[cur].state = VISITED;
 
     for(const int& nei : grid[cur].nei) {
@@ -126,7 +126,7 @@ void UpdateBFS() {
             return;
         }
 
-        frontier.push(nei);
+        bfs_frontier.push(nei);
         grid[nei].state = FRONTIER;
         grid[nei].parent = cur;
     }
