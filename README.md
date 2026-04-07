@@ -6,17 +6,14 @@ It serves as a playground for learning graphics programming, algorithms, and rea
 
 ## 🚀 Current Projects
 
-### 🔍 BFS Pathfinding Visualization
+### BFS Pathfinding Visualization
+Visual representation of **Breadth-First Search (BFS)**
 
-* Visual representation of **Breadth-First Search (BFS)**
-
-### 📊 Sorting Visualization (Selection Sort)
-
-* Visualizes **Selection Sort** in real-time
+### Sorting Visualization (Selection Sort)
+Visualizes **Selection Sort** in real-time
 
 ## 📌 Future Plans
-
-* idk maybe i will find a job and doing something cooler
+idk maybe i will find a job and doing something cooler
 
 ## ▶️ How to Run
 
@@ -26,10 +23,8 @@ make build
 ```
 
 ## ✍️ Notes
-
 This is an evolving project — more features and visualizations will be added over time.
 
 
 ## 📄 License
-
 MIT License (or update later)
