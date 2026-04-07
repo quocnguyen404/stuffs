@@ -23,6 +23,7 @@ It serves as a playground for learning graphics programming, algorithms, and rea
 ```bash
 make build
 ./build/main.exe
+```
 
 ## ✍️ Notes
 
