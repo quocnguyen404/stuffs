@@ -1,5 +1,6 @@
-#include "bfs.h"
+#include "ss.h"
+
 
 int main() {
-    BFSRun();
+    RunSS();
 }
