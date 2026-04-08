@@ -9,9 +9,10 @@ void ModelRun() {
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Penger");
 
     while(!WindowShouldClose()) {
+        angle += PI * GetFrameTime();
+        
         BeginDrawing();
         ClearBackground(BLACK);
-        angle += PI * GetFrameTime();
 
         for(auto& f : faces) {
             for(int i = 0; i < f.size(); i++) {

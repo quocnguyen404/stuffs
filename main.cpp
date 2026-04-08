@@ -1,5 +1,6 @@
-#include "model_wire.h"
+#include "ball_bounce.h"
+
 
 int main() {
-    ModelRun();
+    BBRun();
 }
