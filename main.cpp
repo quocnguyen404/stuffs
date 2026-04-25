@@ -1,6 +1,8 @@
-#include "ball_bounce.h"
-
+#include "ss.h"
 
 int main() {
-    BBRun();
+    SetTraceLogLevel(LOG_NONE);
+    SetConfigFlags(FLAG_WINDOW_UNDECORATED);
+    SetWindowPosition(1920/2, 1080/2);
+    RunSS();
 }

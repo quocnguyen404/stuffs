@@ -22,7 +22,7 @@ struct Sphere {
 
 static std::vector<Sphere> balls;
 
-static Color colors[COLORS_SIZE] = {WHITE, BLUE, YELLOW, RED};
+static Color colors[COLORS_SIZE] = {GRAY, BLUE, YELLOW, RED};
 
 void BBRun();
 Color GetRandomColor();
